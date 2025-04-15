@@ -1,0 +1,111 @@
+body{
+  background-color: white;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  color: red;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  margin: 0px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0px;
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+ul li{
+  margin: 0px;
+  padding: 20px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+}
+
+ul li:hover{
+  color: red;
+  border-bottom: 2px solid;
+  border-color: red;
+}
+
+#register-form{
+  width: 50%;
+  margin: 50px auto;
+  padding: 10px;
+  border: 2px solid;
+  border-color: black;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0px 0px 3px black;
+}
+
+#register-form legend{
+  font-size: 25px;
+  color: red;
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 20px;
+}
+
+#register-form label{
+  display:block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+#register-form input{
+  font-size: 16px;
+  border: 1px solid;
+  border-color: #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  width: 100%;
+  padding:8px;
+}
+
+#register-form button{
+  font-size: 20px;
+  color:white;
+  background-color: black;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#register-form button:hover{
+  background-color: red;
+  cursor: pointer;
+}
+
+hr{
+  width: 50%;
+  margin: 20px auto;
+  border: none;
+  border-top: 1px solid;
+  border-top-color: #ccc;
+}
+
+a{
+  text-decoration: none;
+  color: red;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  padding: 5px;
+}

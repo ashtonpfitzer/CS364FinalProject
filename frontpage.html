@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontpage</title>
+    <link rel="stylesheet" href="frontpage.css">
+    <script src="loginStatus.js"></script>
+</head>
+<body>
+    <h1>STAN/EVAL REBUTTAL SYSTEM</h1>
+    <p id="user-status">Checking login status...</p>
+    <ul>
+        <li><a href="index.html">index.html</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="dashboard.html">S/E Staff Dashboard</a></li>
+    </ul>
+    <div class = "form">
+        <h2>Rebuttal Submission</h2>
+        <form>
+        <div class="row">
+            <label for="roomnumber">Room Number:</label>
+            <input type="text" id="roomnumber" name="roomnumber" required>
+        </div>
+        <div class="row">
+            <label for="squadron">Squadron:</label>
+            <input type="text" id="squadron" name="squadron" required>
+        </div>
+        <div class="row">
+            <label for="information">Information:</label>
+            <textarea id="information" name="information" rows="6" cols="1" required></textarea>
+        </div>
+        <div class="row">
+            <label for="occupant1">Occupant 1:</label>
+            <input type="text" id="occupant1" name="occupant1" required>
+        </div>
+        <div class="row">
+            <label for="occupant2">Occupant 2 (optional):</label>
+            <input type="text" id="occupant2" name="occupant2" optional>
+        </div>
+        <div class="row">
+            <label for="occupant3">Occupant 3 (optional):</label>
+            <input type="text" id="occupant3" name="occupant3" optional>
+        </div>
+        <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

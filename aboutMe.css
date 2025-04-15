@@ -1,0 +1,149 @@
+/* author: ashton pfitzer */ 
+
+.name{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 10px;
+}
+
+.Info {
+    display: flex;
+    color: black;
+    margin-top: 60px;
+}
+
+.Left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+    padding: 20px;
+}
+.PII {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.AboutMe {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.JP {
+    background-color: #f0f0f0;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.PII h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+.AboutMe h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+.JP h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+.PII p{
+    font-size:20px;
+}
+
+.AboutMe p{
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+
+}
+
+.MyPhoto{
+    margin-left: 0;
+    margin-top: 20px;
+    width: 50%;
+}
+
+th{
+    color: black;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+
+@media (max-width: 700px){
+    body{
+        font-size: 50px;
+        margin: 100%;
+    }
+    .Info{
+        align-items: center;
+        flex-direction: column;
+    }
+    .MyPhoto{
+        margin-left: 0;
+        margin-top: 20px;
+        width: 40%;
+    }
+    .myPhoto img{
+        width: 40%;
+        border-radius: 10px;
+        flex-direction: column;
+    }
+    table{
+        margin: 0px;
+    }
+}
+
+@media (min-width: 701px){
+    body{
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    .MyPhoto img{
+        margin: 20px;
+        gap: 30px;
+        width: 40%;
+        border-radius: 10px;
+    }
+}
+
+

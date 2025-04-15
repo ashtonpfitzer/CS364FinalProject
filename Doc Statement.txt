@@ -1,0 +1,16 @@
+Doc Statement: I used all the following, tried to record as much individual links as I could, but I mainly referenced https://www.w3schools.com/css/default.asp and it's subsections to learn what exactly I can do for css. I also made this all in liveweave so I could view live updates as I edit my HTML. I also utilized liveweave's css explorer to learn what exactly I can do if I want a specific transformation.
+
+
+navigation bar: https://www.w3schools.com/howto/howto_js_topnav.asp, https://www.w3schools.com/css/css_navbar.asp
+hover: https://www.w3schools.com/cssref/sel_hover.php
+link text decoration: https://www.w3schools.com/css/css_text_decoration.asp
+textarea/longer texts: https://www.w3schools.com/html/html_form_elements.asp
+html forms: https://www.w3schools.com/html/html_forms.asp
+css forms: https://www.w3schools.com/css/css_form.asp
+
+utilized liveweave and it's css explorer to explore different options with css. Taught me what to do to have text shadow, box shadow, borders, alignment, etc.
+
+
+I asked chatGPT why my user-status wasn't displaying with my updated CSS code, as I had it as .user-status and gave it the "<p id="user-status">Checking login status...</p>" line. It told me I need to use #user-status instead of .user-status as it's an id not a class. I also asked chatGPT how to include multiple buttons in a table row, and it just told me to put <button></button> as many times as I want in an individual td.
+
+Used L27 templates for HTML. Used previous work I did during HW1, specifically for the tables.

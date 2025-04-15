@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+    <script defer src="register.js"> </script>
+
+</head>
+<body>
+  <h1>REGISTER</h1>
+  <ul>
+      <li><a href="index.html">index.html</a></li>
+      <li><a href="frontpage.html">Front Page</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="dashboard.html">S/E Staff Dashboard</a></li>
+  </ul>  
+  <form id="register-form" onsubmit="register(event)">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="username" required>
+      <br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <br>
+
+      <label for="squadron">Squadron:</label>
+      <input type="squadron" id="squadron" name="squadron" required>
+      <br>
+
+      <label for="role">Role:</label>
+      <select id="role" name="role" required>
+        <option value="user">User</option>
+        <option value="admin">Admin</option>
+      </select>
+      <br>
+
+      <button type="submit">Register</button>
+  </form>
+</body>
+</html>
+

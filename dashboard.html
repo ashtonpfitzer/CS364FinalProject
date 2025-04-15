@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <script defer src="dashboard.js"></script>
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="loginStatus.js"> </script>
+</head>
+<body>
+    <h1>STAFF DASHBOARD</h1>
+  <ul>
+      <li><a href="index.html">index.html</a></li>
+      <li><a href="frontpage.html">Front Page</a></li>
+
+  </ul>  
+    <div class = "tables">
+    <h2>Rebuttals</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Rebuttal #</th>
+                <th>Room #</th>
+                <th>Squadron</th>
+                <th>Information</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="rebuttalsList">
+            <tr>
+                <td>0001</td>
+                <td>2D100</td>
+                <td>40</td>
+                <td>long information text, lets see how this works. placeholder info</td>
+                <td>Pending</td>
+                <td>
+                    <button class = "action">Approve</button>
+                    <button class = "action">Deny</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+
+    <div class = "tables">
+    <h2>Reviewed Rebuttals</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Rebuttal #</th>
+                <th>Room #</th>
+                <th>Squadron</th>
+                <th>Status</th>
+                <th>Reviewed By</th>
+            </tr>
+        </thead>
+        <tbody id="reviewedList"></tbody>
+    </table>
+    </div>
+
+    <div class = "tables">
+    <h2>Registered Users</h2>
+    <table id ="users">
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Role</th>
+            </tr>
+        </thead>
+        <tbody id="userList"></tbody>
+    </table>
+    </div>
+</body>
+</html>
+

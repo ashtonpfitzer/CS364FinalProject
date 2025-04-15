@@ -1,0 +1,110 @@
+body{
+  background-color: white;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  color: red;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  margin: 0px;
+}
+
+#user-status{
+  color: red;
+  background-color: black;
+  padding: 0px;
+  text-align: center;
+  margin: 0px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0px;
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+ul li{
+  margin: 0px;
+  padding: 20px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+}
+
+ul li:hover{
+  color: red;
+  border-bottom: 2px solid;
+  border-color: red;
+}
+
+.form{
+  width: 50%;
+  margin: 50px auto;
+  padding: 10px;
+  border: 2px solid;
+  border-color: black;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0px 0px 3px black;
+}
+
+.form h2{
+  text-align: center;
+  color: red;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+  margin: 0px 0px 20px 0px;
+}
+
+.row{
+  margin-bottom: 20px;
+}
+
+.form label{
+  margin-bottom: 10px;
+}
+
+.form textarea{
+  width: 100%;
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid;
+  border-color: #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form input{
+  width: 100%;
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid;
+  border-color: #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form button{
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.form button:hover{
+  background-color: red;
+  cursor: pointer;
+}
